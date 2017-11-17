@@ -1,0 +1,91 @@
+@font-face {
+  @import url("https://fonts.googleapis.com/css?family=Lato");
+  font-family: 'Lato'; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif; }
+
+body {
+  background-color: rgba(181, 178, 176, 0.2);
+  margin-top: calc(6vh + 50px); }
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 80%;
+  margin: auto; }
+
+nav {
+  background-color: #DF9B67;
+  height: 6vh;
+  width: 100%;
+  position: fixed;
+  top: 0; }
+  nav a {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 6vh; }
+    nav a:hover, nav a .active {
+      background-color: #749CD3; }
+    nav a:first-child {
+      margin-left: -10px; }
+    nav a:last-child {
+      margin-right: -10px; }
+  nav .shop {
+    float: right; }
+
+.logo {
+  height: 80px;
+  margin: 70px;
+  margin-left: -20px; }
+
+section {
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-bottom: 20px; }
+
+footer {
+  background-color: #2A1000;
+  color: #FFFFFF;
+  padding: 10px 0; }
+
+.flex {
+  display: flex;
+  justify-content: space-between; }
+  .flex .flex-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; }
+    .flex .flex-item .social1, .flex .flex-item .social2, .flex .flex-item .social3, .flex .flex-item .social4 {
+      width: 40px;
+      height: 40px;
+      display: block;
+      margin: 10px;
+      line-height: 40px;
+      text-align: center; }
+      .flex .flex-item .social1 a, .flex .flex-item .social2 a, .flex .flex-item .social3 a, .flex .flex-item .social4 a {
+        color: #FFFFFF;
+        font-size: 1.8em; }
+        .flex .flex-item .social1 a:hover, .flex .flex-item .social2 a:hover, .flex .flex-item .social3 a:hover, .flex .flex-item .social4 a:hover {
+          color: #2A1000; }
+  .flex .social1 {
+    background-color: #3D6BB4; }
+  .flex .social2 {
+    background-color: #DF9B67; }
+  .flex .social3 {
+    background-color: #C9DB50; }
+  .flex .social4 {
+    background-color: #749CD3; }
+  .flex .flex-item-social {
+    max-width: 150px; }
+
+/*# sourceMappingURL=style.css.map */

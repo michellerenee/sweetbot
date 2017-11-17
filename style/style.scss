@@ -1,0 +1,146 @@
+@font-face {
+  @import url('https://fonts.googleapis.com/css?family=Lato');
+  font-family: 'Lato';
+}
+
+// Colors
+$primaer: #3D6BB4; // Primary brand color
+$sekundaer: #749CD3; // Secundary brand color
+$tertier: #DF9B67; // Third brand color
+$alternativ: #C9DB50; // Fourth brand color
+$alt-bg: #B5B2B0; // Alternative background color
+$text-color: #2A1000; // Text / content
+$alt-text-color: #FFFFFF; // Alternative text / content
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background-color: rgba(181,178,176,0.2);
+  margin-top: calc(6vh + 50px);
+}
+
+h1, h2, h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+nav{
+  background-color: $tertier;
+  height: 6vh;
+  width: 100%;
+  position: fixed;
+  top:0;
+
+
+  a{
+    color: $alt-text-color;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 6vh;
+
+    &:hover, .active{
+      background-color: $sekundaer;
+    }
+
+    &:first-child{
+      margin-left: -10px;
+    }
+
+    &:last-child{
+      margin-right: -10px;
+    }
+  }
+
+  .shop{
+    float: right;
+  }
+}
+
+.logo{
+  height: 80px;
+  margin: 70px;
+  margin-left: -20px;
+}
+
+section{
+  background-color: $alt-text-color;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer{
+  background-color: $text-color;
+  color: $alt-text-color;
+  padding: 10px 0;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+
+  .flex-item{
+    //background: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    .social1, .social2, .social3, .social4{
+      width: 40px;
+      height: 40px;
+      display: block;
+      margin: 10px;
+      line-height: 40px;
+      text-align: center;
+
+      a{
+        color: $alt-text-color;
+        font-size: 1.8em;
+
+        &:hover{
+          color: $text-color;
+        }
+      }
+    }
+  }
+
+  .social1{
+    background-color: $primaer;
+  }
+
+  .social2{
+    background-color: $tertier;
+  }
+
+  .social3{
+    background-color: $alternativ;
+  }
+
+  .social4{
+    background-color: $sekundaer;
+  }
+
+  .flex-item-social{
+    max-width: 150px;
+  }
+
+}
+
+
+
+
+// breakoint ved 845px?
