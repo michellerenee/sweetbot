@@ -80,14 +80,53 @@ section {
   padding: 20px;
   margin-bottom: 20px; }
 
-#web, #security, #branding, #omos, #kontakt {
+#web, #security, #branding, #omos, #kontakt, #hjem {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap; }
-  #web h2, #security h2, #branding h2, #omos h2, #kontakt h2 {
+  #web h2, #security h2, #branding h2, #omos h2, #kontakt h2, #hjem h2 {
     width: 100%; }
-  #web h3, #security h3, #branding h3, #omos h3, #kontakt h3 {
+  #web h3, #security h3, #branding h3, #omos h3, #kontakt h3, #hjem h3 {
     padding-bottom: 0; }
+  #web form p, #security form p, #branding form p, #omos form p, #kontakt form p, #hjem form p {
+    display: block;
+    font-size: 1.2em; }
+  #web form input, #web form textarea, #security form input, #security form textarea, #branding form input, #branding form textarea, #omos form input, #omos form textarea, #kontakt form input, #kontakt form textarea, #hjem form input, #hjem form textarea {
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    float: left;
+    border: 3px solid #749CD3;
+    margin-bottom: 10px; }
+  #web form textarea, #security form textarea, #branding form textarea, #omos form textarea, #kontakt form textarea, #hjem form textarea {
+    height: 80px;
+    resize: vertical; }
+  #web form label, #security form label, #branding form label, #omos form label, #kontakt form label, #hjem form label {
+    float: left; }
+  #web form input[type=submit], #security form input[type=submit], #branding form input[type=submit], #omos form input[type=submit], #kontakt form input[type=submit], #hjem form input[type=submit] {
+    background-color: #749CD3;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 50%;
+    float: right;
+    margin-top: 30px; }
+
+.kontakt-p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px; }
+
+.velkomst-kontakt {
+  display: block;
+  margin: auto;
+  background-color: #C9DB50;
+  padding: 10px 15px;
+  width: 50%;
+  text-align: center;
+  color: #FFFFFF; }
+  .velkomst-kontakt:hover {
+    color: #2A1000; }
 
 .flex {
   display: flex;

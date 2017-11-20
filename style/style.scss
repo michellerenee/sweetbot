@@ -117,7 +117,7 @@ section{
   margin-bottom: 20px;
 }
 
-#web, #security, #branding, #omos, #kontakt{
+#web, #security, #branding, #omos, #kontakt, #hjem{
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -128,6 +128,61 @@ section{
 
   h3{
     padding-bottom: 0;
+  }
+
+  form{
+    p{
+      display: block;
+      font-size: 1.2em;
+    }
+
+    input, textarea{
+      height: 40px;
+      width: 100%;
+      padding: 5px;
+      margin: 0;
+      float: left;
+      border: 3px solid $sekundaer;
+      margin-bottom: 10px;
+    }
+
+    textarea{
+      height: 80px;
+      resize: vertical;
+    }
+
+    label{
+      float: left;
+    }
+
+    input[type=submit]{
+      background-color: $sekundaer;
+      color: $alt-text-color;
+      cursor: pointer;
+      width: 50%;
+      float: right;
+      margin-top: 30px;
+    }
+  }
+}
+
+.kontakt-p{
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.velkomst-kontakt{
+  display: block;
+  margin: auto;
+  background-color: $alternativ;
+  padding: 10px 15px;
+  width: 50%;
+  text-align: center;
+  color: $alt-text-color;
+
+  &:hover{
+    color: $text-color;
   }
 }
 
