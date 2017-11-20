@@ -5,6 +5,9 @@
   <title>Sweetbot</title>
   <link rel="stylesheet" type="text/css" href="style/style.css">
   <script src="https://use.fontawesome.com/01dfeb19a9.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="scripts/src/skdslider.js"></script>
+  <link href="scripts/src/skdslider.css" rel="stylesheet">
 </head>
 <body>
 <nav>
@@ -21,10 +24,49 @@
 
 <div class="container">
   <section id="hjem">
-    <img class="logo" src="img/logo.png">
+    <img class="logo" src="img/logo.png" alt="Sweetbot designs logo">
+    <div id="demo" class="skdslider">
+      <ul>
+
+        <li> <img src="img/1.jpg" />
+          <div class="slide-desc">
+            <h2>Slider Title 1</h2>
+            <p>Description 1.</p>
+          </div> <!-- slider description slut -->
+        </li>
+
+        <li><img src="img/2.jpg" />
+          <div class="slide-desc">
+            <h2>Slider Title 2</h2>
+            <p>Description 2.</p>
+          </div> <!-- slider description slut -->
+        </li>
+      </ul>
+    </div> <!-- #demo .skdslider end -->
+    <h1>Velkommen hos Sweetbot-design</h1>
+    <div class="width-75">
+      <p>Caramel cup banana chunky, dessert blueberry snow cones coffee flavour, chocolate maple marshmellow scoop. Dessert sherbet sundae cherry gelato cherry, scoop sherbet frozen, butter.</p>
+      <p>Peanut butter white chocolate banana frozen orange sherbet cake pecan. Dessert chocolate chip pecan, blueberry, caramel butterscotch chocolate chip blueberry caramel butterscotch caramel butter. Snow cones cup chocolate chip toppings apple, gelato, mocha chunky.</p>
+    </div><!-- width-75 slut -->
+    <div class="width-25">
+      Hej
+      med
+      digdfodslfdsmælfsdlmæ dæflmdsmf dmfdsælfdslæmfdsæ dæfmlds
+    </div>
   </section>
-  <section id="web">
-    hej
+
+  <section>
+    <div class="flex">
+      <div class="flex-item speciale">
+
+      </div><!-- flex-item slut -->
+      <div class="flex-item speciale">
+
+      </div><!-- flex-item slut -->
+      <div class="flex-item speciale">
+
+      </div><!-- flex-item slut -->
+    </div><!-- flex slut -->
   </section>
 
 </div><!-- container slut -->
@@ -63,5 +105,15 @@
     </div>
   </div><!-- container slut -->
 </footer>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('#demo').skdslider({
+            'delay':5000, // Delay duration between two slides in micro seconds.
+            'fadeSpeed': 2000, // Fading Speed in micro seconds.
+            'showNav': true, // It will show/hide navigation icon.
+            'numericNav': false // If true, navigation will be numeric
+        });
+    });
+</script>
 </body>
 </html>
