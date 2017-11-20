@@ -66,17 +66,23 @@ footer {
     flex-wrap: wrap;
     justify-content: flex-end; }
     .flex .flex-item .social1, .flex .flex-item .social2, .flex .flex-item .social3, .flex .flex-item .social4 {
-      width: 40px;
-      height: 40px;
+      width: 35px;
+      height: 35px;
       display: block;
-      margin: 10px;
-      line-height: 40px;
+      margin: 5px;
+      line-height: 35px;
       text-align: center; }
       .flex .flex-item .social1 a, .flex .flex-item .social2 a, .flex .flex-item .social3 a, .flex .flex-item .social4 a {
         color: #FFFFFF;
-        font-size: 1.8em; }
+        font-size: 1.7em; }
         .flex .flex-item .social1 a:hover, .flex .flex-item .social2 a:hover, .flex .flex-item .social3 a:hover, .flex .flex-item .social4 a:hover {
           color: #2A1000; }
+    .flex .flex-item address {
+      font-style: normal;
+      font-size: 1.2em;
+      margin-top: 10px; }
+  .flex .flex-item-social {
+    max-width: 100px; }
   .flex .social1 {
     background-color: #3D6BB4; }
   .flex .social2 {
@@ -85,7 +91,19 @@ footer {
     background-color: #C9DB50; }
   .flex .social4 {
     background-color: #749CD3; }
-  .flex .flex-item-social {
-    max-width: 150px; }
+  .flex form p {
+    display: block;
+    font-size: 1.2em; }
+  .flex form input {
+    height: 40px;
+    padding: 5px;
+    margin: 0;
+    float: left;
+    border: 3px solid #749CD3;
+    margin-top: 10px; }
+  .flex form input[type=submit] {
+    background-color: #749CD3;
+    color: #FFFFFF;
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

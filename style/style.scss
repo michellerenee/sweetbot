@@ -100,22 +100,32 @@ footer{
     justify-content: flex-end;
 
     .social1, .social2, .social3, .social4{
-      width: 40px;
-      height: 40px;
+      width: 35px;
+      height: 35px;
       display: block;
-      margin: 10px;
-      line-height: 40px;
+      margin: 5px;
+      line-height: 35px;
       text-align: center;
 
       a{
         color: $alt-text-color;
-        font-size: 1.8em;
+        font-size: 1.7em;
 
         &:hover{
           color: $text-color;
         }
       }
     }
+
+    address{
+      font-style: normal;
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+  }
+
+  .flex-item-social{
+    max-width: 100px;
   }
 
   .social1{
@@ -134,8 +144,27 @@ footer{
     background-color: $sekundaer;
   }
 
-  .flex-item-social{
-    max-width: 150px;
+  form{
+    p{
+      display: block;
+      font-size: 1.2em;
+    }
+
+    input{
+      height: 40px;
+      padding: 5px;
+      margin: 0;
+      float: left;
+      border: 3px solid $sekundaer;
+      margin-top: 10px;
+    }
+
+    input[type=submit]{
+      background-color: $sekundaer;
+      color: $alt-text-color;
+      cursor: pointer;
+
+    }
   }
 
 }
