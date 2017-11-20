@@ -8,7 +8,7 @@ $primaer: #3D6BB4; // Primary brand color
 $sekundaer: #749CD3; // Secundary brand color
 $tertier: #DF9B67; // Third brand color
 $alternativ: #C9DB50; // Fourth brand color
-$alt-bg: #B5B2B0; // Alternative background color
+$alt-bg: rgba(181,178,176,0.2); // Alternative background color
 $text-color: #2A1000; // Text / content
 $alt-text-color: #FFFFFF; // Alternative text / content
 
@@ -20,7 +20,7 @@ $alt-text-color: #FFFFFF; // Alternative text / content
 }
 
 body{
-  background-color: rgba(181,178,176,0.2);
+  background-color: $alt-bg;
   margin-top: calc(6vh + 50px);
 }
 
@@ -39,7 +39,7 @@ p{
 
 h1, h2, h3{
   font-family: 'Lato', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1{
@@ -98,18 +98,14 @@ nav{
 section{
   background-color: $alt-text-color;
   padding: 10px;
+  padding-bottom:20px;
   margin-bottom: 20px;
-}
-
-footer{
-  background-color: $text-color;
-  color: $alt-text-color;
-  padding: 10px 0;
 }
 
 .flex{
   display: flex;
   justify-content: space-between;
+  align-content: stretch;
 
   .flex-item{
     //background: red;
@@ -147,17 +143,25 @@ footer{
   }
 
   .speciale{
-    flex-grow: 1;
-    background-color: red;
     padding: 10px;
     margin: 5px;
+    width: 250px;
+    justify-content: center;
+    background-color: $alt-bg;
 
-    &:first-child{
-      margin-left: 0;
+    &:first-child{ margin-left: 0; }
+    &:last-child{ margin-right: 0; }
+
+    img{
+      max-width: 200px;
+      max-height: 200px;
+      margin: auto;
+      margin-bottom: 10px;
     }
 
-    &:last-child{
-      margin-right: 0;
+    p, h3{
+      text-align: center;
+      color: $text-color;
     }
   }
 
@@ -199,10 +203,21 @@ footer{
 
     }
   }
-
 }
 
+.speciale-container{
+  justify-content: space-around;
 
+  .speciale:hover{
+    box-shadow: #B5B2B0 5px 5px 10px;
+  }
+}
 
+footer{
+  background-color: $text-color;
+  color: $alt-text-color;
+  padding: 10px 0;
+  margin-top: 40px;
+}
 
 // breakoint ved 845px?
