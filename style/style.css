@@ -12,28 +12,40 @@ body {
   margin-top: calc(6vh + 50px); }
 
 p {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-size: 1.3em; }
 
-.width-75 {
-  width: 74%;
-  display: inline-block; }
+.width-65 {
+  width: 65%;
+  display: inline-block;
+  padding-right: 20px; }
 
-.width-25 {
-  width: 25%;
+.width-35 {
+  width: 35%;
   display: inline-block; }
+  .width-35 img {
+    max-width: 100%; }
 
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
-  font-weight: 600; }
+  font-weight: 600;
+  padding-bottom: 15px; }
 
 h1 {
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-size: 2.4em; }
+
+h2 {
+  font-size: 2.2em; }
+
+h3 {
+  font-size: 1.6em; }
 
 a {
   text-decoration: none; }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto; }
 
 nav {
@@ -65,9 +77,17 @@ nav {
 
 section {
   background-color: #FFFFFF;
-  padding: 10px;
-  padding-bottom: 20px;
+  padding: 20px;
   margin-bottom: 20px; }
+
+#web, #security, #branding, #omos, #kontakt {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+  #web h2, #security h2, #branding h2, #omos h2, #kontakt h2 {
+    width: 100%; }
+  #web h3, #security h3, #branding h3, #omos h3, #kontakt h3 {
+    padding-bottom: 0; }
 
 .flex {
   display: flex;
@@ -81,7 +101,7 @@ section {
       width: 35px;
       height: 35px;
       display: block;
-      margin: 5px;
+      margin: 0 0 10px 10px;
       line-height: 35px;
       text-align: center; }
       .flex .flex-item .social1 a, .flex .flex-item .social2 a, .flex .flex-item .social3 a, .flex .flex-item .social4 a {
@@ -91,8 +111,7 @@ section {
           color: #2A1000; }
     .flex .flex-item address {
       font-style: normal;
-      font-size: 1.2em;
-      margin-top: 10px; }
+      font-size: 1.2em; }
   .flex .flex-item-social {
     max-width: 100px; }
   .flex .speciale {

@@ -26,24 +26,40 @@ body{
 
 p{
   margin-bottom: 15px;
+  font-size: 1.3em;
 }
 
-.width-75{
-  width: 74%;
-  display: inline-block;
+.width-65{
+  width: 65%;
+  display:  inline-block;
+  padding-right: 20px;
 }
-.width-25{
-  width: 25%;
+.width-35{
+  width: 35%;
   display: inline-block;
+
+  img{
+    max-width: 100%;
+  }
 }
 
 h1, h2, h3{
   font-family: 'Lato', sans-serif;
   font-weight: 600;
+  padding-bottom:15px;
 }
 
 h1{
   margin-top: 20px;
+  font-size: 2.4em;
+}
+
+h2{
+  font-size: 2.2em;
+}
+
+h3{
+  font-size: 1.6em;
 }
 
 a{
@@ -51,7 +67,7 @@ a{
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -97,9 +113,22 @@ nav{
 
 section{
   background-color: $alt-text-color;
-  padding: 10px;
-  padding-bottom:20px;
+  padding: 20px;
   margin-bottom: 20px;
+}
+
+#web, #security, #branding, #omos, #kontakt{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  h2{
+    width: 100%;
+  }
+
+  h3{
+    padding-bottom: 0;
+  }
 }
 
 .flex{
@@ -117,7 +146,7 @@ section{
       width: 35px;
       height: 35px;
       display: block;
-      margin: 5px;
+      margin: 0 0 10px 10px;
       line-height: 35px;
       text-align: center;
 
@@ -134,7 +163,6 @@ section{
     address{
       font-style: normal;
       font-size: 1.2em;
-      margin-top: 10px;
     }
   }
 
