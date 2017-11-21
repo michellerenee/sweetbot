@@ -22,7 +22,8 @@ p {
 
 .width-35 {
   width: 35%;
-  display: inline-block; }
+  display: inline-block;
+  padding-right: 20px; }
   .width-35 img {
     max-width: 100%; }
 
@@ -59,7 +60,7 @@ nav {
     color: #FFFFFF;
     font-size: 1.2em;
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 6px;
     line-height: 6vh; }
     nav a:hover, nav a .active {
       background-color: #749CD3; }
@@ -69,6 +70,13 @@ nav {
       margin-right: -10px; }
   nav .shop {
     float: right; }
+
+.til-top {
+  position: fixed;
+  bottom: 20px;
+  right: 29px; }
+  .til-top img {
+    max-width: 70px; }
 
 .logo {
   height: 80px;
@@ -136,18 +144,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end; }
-    .flex .flex-item .social1, .flex .flex-item .social2, .flex .flex-item .social3, .flex .flex-item .social4 {
-      width: 35px;
-      height: 35px;
-      display: block;
-      margin: 0 0 10px 10px;
-      line-height: 35px;
-      text-align: center; }
-      .flex .flex-item .social1 a, .flex .flex-item .social2 a, .flex .flex-item .social3 a, .flex .flex-item .social4 a {
-        color: #FFFFFF;
-        font-size: 1.7em; }
-        .flex .flex-item .social1 a:hover, .flex .flex-item .social2 a:hover, .flex .flex-item .social3 a:hover, .flex .flex-item .social4 a:hover {
-          color: #2A1000; }
     .flex .flex-item address {
       font-style: normal;
       font-size: 1.2em; }
@@ -168,7 +164,7 @@ section {
       max-height: 200px;
       margin: auto;
       margin-bottom: 10px; }
-    .flex .speciale p, .flex .speciale h3 {
+    .flex .speciale .textbox {
       text-align: center;
       color: #2A1000; }
   .flex .social1 {
@@ -194,6 +190,9 @@ section {
     color: #FFFFFF;
     cursor: pointer; }
 
+#omos img {
+  max-width: 130px; }
+
 .speciale-container {
   justify-content: space-around; }
   .speciale-container .speciale:hover {
@@ -204,5 +203,49 @@ footer {
   color: #FFFFFF;
   padding: 10px 0;
   margin-top: 40px; }
+  footer .flex {
+    justify-content: space-between; }
+    footer .flex .flex-item-social {
+      flex-wrap: wrap; }
+      footer .flex .flex-item-social .social1, footer .flex .flex-item-social .social2, footer .flex .flex-item-social .social3, footer .flex .flex-item-social .social4 {
+        width: 35px;
+        height: 35px;
+        display: block;
+        line-height: 35px;
+        text-align: center;
+        margin: 0 0 0 10px; }
+        footer .flex .flex-item-social .social1 a, footer .flex .flex-item-social .social2 a, footer .flex .flex-item-social .social3 a, footer .flex .flex-item-social .social4 a {
+          color: #FFFFFF;
+          font-size: 1.7em; }
+          footer .flex .flex-item-social .social1 a:hover, footer .flex .flex-item-social .social2 a:hover, footer .flex .flex-item-social .social3 a:hover, footer .flex .flex-item-social .social4 a:hover {
+            color: #2A1000; }
+
+@media all and (max-width: 1000px) {
+  .container {
+    width: 80%; }
+
+  .flex {
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+
+  .flex-item.speciale {
+    width: 100%; }
+    .flex-item.speciale .textbox {
+      max-width: calc(100% - 150px - 20px);
+      text-align: left;
+      padding-left: 10px; }
+      .flex-item.speciale .textbox h3 {
+        margin-top: 10px; }
+    .flex-item.speciale img {
+      margin: inherit;
+      max-width: 150px;
+      max-height: 150px; }
+
+  .speciale {
+    justify-content: flex-start; }
+
+  .speciale-container .flex-item {
+    justify-content: flex-start;
+    margin: 10px 0; } }
 
 /*# sourceMappingURL=style.css.map */

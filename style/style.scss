@@ -37,6 +37,7 @@ p{
 .width-35{
   width: 35%;
   display: inline-block;
+  padding-right:20px;
 
   img{
     max-width: 100%;
@@ -84,7 +85,7 @@ nav{
     color: $alt-text-color;
     font-size: 1.2em;
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 6px;
     line-height: 6vh;
 
     &:hover, .active{
@@ -102,6 +103,16 @@ nav{
 
   .shop{
     float: right;
+  }
+}
+
+.til-top{
+  position: fixed;
+  bottom: 20px;
+  right: 29px;
+
+  img{
+    max-width: 70px;
   }
 }
 
@@ -197,24 +208,6 @@ section{
     flex-wrap: wrap;
     justify-content: flex-end;
 
-    .social1, .social2, .social3, .social4{
-      width: 35px;
-      height: 35px;
-      display: block;
-      margin: 0 0 10px 10px;
-      line-height: 35px;
-      text-align: center;
-
-      a{
-        color: $alt-text-color;
-        font-size: 1.7em;
-
-        &:hover{
-          color: $text-color;
-        }
-      }
-    }
-
     address{
       font-style: normal;
       font-size: 1.2em;
@@ -242,7 +235,7 @@ section{
       margin-bottom: 10px;
     }
 
-    p, h3{
+    .textbox{
       text-align: center;
       color: $text-color;
     }
@@ -288,6 +281,12 @@ section{
   }
 }
 
+#omos {
+  img{
+    max-width: 130px;
+  }
+}
+
 .speciale-container{
   justify-content: space-around;
 
@@ -301,6 +300,82 @@ footer{
   color: $alt-text-color;
   padding: 10px 0;
   margin-top: 40px;
+
+  .flex{
+    justify-content: space-between;
+
+    .flex-item-social{
+      flex-wrap: wrap;
+
+      .social1, .social2, .social3, .social4{
+        width: 35px;
+        height: 35px;
+        display: block;
+        line-height: 35px;
+        text-align: center;
+        margin: 0 0 0 10px;
+
+        a{
+          color: $alt-text-color;
+          font-size: 1.7em;
+
+          &:hover{
+            color: $text-color;
+          }
+        }
+      }
+    }
+  }
 }
 
-// breakoint ved 845px?
+
+@media all and (max-width: 1000px){
+  .container{
+    width: 80%;
+  }
+
+  .flex{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .flex-item.speciale{
+    width: 100%;
+
+    .textbox{
+      max-width: calc(100% - 150px - 20px);
+      text-align: left;
+      padding-left: 10px;
+
+      h3{
+        margin-top: 10px;
+      }
+    }
+
+    img{
+      margin: inherit;
+      max-width: 150px;
+      max-height: 150px;
+    }
+  }
+
+  .speciale{
+    justify-content: flex-start;
+  }
+
+  .speciale-container{
+    .flex-item{
+      justify-content: flex-start;
+      margin: 10px 0;
+    }
+  }
+}
+
+@media all and (max-width: 800px){
+
+}
+
+// Mobile
+@media all and (max-width: 600px) {
+
+}
