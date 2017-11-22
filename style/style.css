@@ -1,3 +1,337 @@
+<<<<<<< HEAD
+@font-face {
+  @import url("https://fonts.googleapis.com/css?family=Lato");
+  font-family: 'Lato'; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif; }
+
+body {
+  background-color: rgba(181, 178, 176, 0.2);
+  margin-top: calc(6vh + 50px); }
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.3em; }
+
+.width-65 {
+  width: 65%;
+  display: inline-block;
+  padding-right: 20px; }
+
+.width-35 {
+  width: 35%;
+  display: inline-block;
+  padding-right: 20px; }
+  .width-35 img {
+    max-width: 100%; }
+
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  padding-bottom: 15px; }
+
+h1 {
+  margin-top: 20px;
+  font-size: 2.4em; }
+
+h2 {
+  font-size: 2.2em; }
+
+h3 {
+  font-size: 1.6em; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 70%;
+  margin: auto; }
+
+.menu-toggle {
+  display: none; }
+
+nav {
+  background-color: #DF9B67;
+  height: 6vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99; }
+  nav a {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 0 6px;
+    line-height: 6vh; }
+    nav a:hover, nav a .active {
+      background-color: #749CD3; }
+    nav a:first-child {
+      margin-left: -10px; }
+    nav a:last-child {
+      margin-right: -10px; }
+  nav .shop {
+    float: right; }
+
+.til-top {
+  position: fixed;
+  bottom: 20px;
+  right: 29px;
+  z-index: 10; }
+  .til-top img {
+    max-width: 70px; }
+
+.logo {
+  max-height: 80px;
+  margin: 70px;
+  margin-left: -30px;
+  max-width: 100%; }
+
+section {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 20px; }
+
+.anchor {
+  display: block;
+  height: 8vh;
+  margin-top: -8vh;
+  visibility: hidden; }
+
+.web, .security, .branding, .omos, .kontakt, .hjem {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+  .web h2, .security h2, .branding h2, .omos h2, .kontakt h2, .hjem h2 {
+    width: 100%; }
+  .web h3, .security h3, .branding h3, .omos h3, .kontakt h3, .hjem h3 {
+    padding-bottom: 0; }
+  .web form p, .security form p, .branding form p, .omos form p, .kontakt form p, .hjem form p {
+    display: block;
+    font-size: 1.2em; }
+  .web form input, .web form textarea, .security form input, .security form textarea, .branding form input, .branding form textarea, .omos form input, .omos form textarea, .kontakt form input, .kontakt form textarea, .hjem form input, .hjem form textarea {
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    float: left;
+    border: 3px solid #749CD3;
+    margin-bottom: 10px; }
+  .web form textarea, .security form textarea, .branding form textarea, .omos form textarea, .kontakt form textarea, .hjem form textarea {
+    height: 80px;
+    resize: vertical; }
+  .web form label, .security form label, .branding form label, .omos form label, .kontakt form label, .hjem form label {
+    float: left; }
+  .web form input[type=submit], .security form input[type=submit], .branding form input[type=submit], .omos form input[type=submit], .kontakt form input[type=submit], .hjem form input[type=submit] {
+    background-color: #749CD3;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 50%;
+    float: right;
+    margin-top: 30px; }
+
+.kontakt-p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px; }
+
+.velkomst-kontakt {
+  display: block;
+  margin: auto;
+  background-color: #C9DB50;
+  padding: 10px 15px;
+  width: 50%;
+  text-align: center;
+  color: #FFFFFF; }
+  .velkomst-kontakt:hover {
+    color: #2A1000; }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch; }
+  .flex .flex-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; }
+    .flex .flex-item address {
+      font-style: normal;
+      font-size: 1.2em; }
+  .flex .flex-item-social {
+    max-width: 100px; }
+  .flex .speciale {
+    padding: 10px;
+    margin: 5px;
+    width: 250px;
+    justify-content: center;
+    background-color: rgba(181, 178, 176, 0.2); }
+    .flex .speciale:first-child {
+      margin-left: 0; }
+    .flex .speciale:last-child {
+      margin-right: 0; }
+    .flex .speciale img {
+      max-width: 200px;
+      max-height: 200px;
+      margin: auto;
+      margin-bottom: 10px; }
+    .flex .speciale .textbox {
+      text-align: center;
+      color: #2A1000; }
+  .flex .social1 {
+    background-color: #3D6BB4; }
+  .flex .social2 {
+    background-color: #DF9B67; }
+  .flex .social3 {
+    background-color: #C9DB50; }
+  .flex .social4 {
+    background-color: #749CD3; }
+  .flex form p {
+    display: block;
+    font-size: 1.2em; }
+  .flex form input {
+    height: 40px;
+    padding: 5px;
+    margin: 0;
+    float: left;
+    border: 3px solid #749CD3;
+    margin-top: 10px; }
+  .flex form input[type=submit] {
+    background-color: #749CD3;
+    color: #FFFFFF;
+    cursor: pointer; }
+
+#omos img {
+  max-width: 130px; }
+
+.speciale-container {
+  justify-content: space-around; }
+  .speciale-container .speciale:hover {
+    box-shadow: #B5B2B0 5px 5px 10px; }
+
+footer {
+  background-color: #2A1000;
+  color: #FFFFFF;
+  padding: 10px 0;
+  margin-top: 40px;
+  z-index: 80;
+  position: relative; }
+  footer .flex {
+    justify-content: space-between; }
+    footer .flex .flex-item-social {
+      flex-wrap: nowrap;
+      display: block;
+      width: 90px; }
+      footer .flex .flex-item-social .social1, footer .flex .flex-item-social .social2, footer .flex .flex-item-social .social3, footer .flex .flex-item-social .social4 {
+        width: 35px;
+        height: 35px;
+        float: left;
+        line-height: 35px;
+        text-align: center;
+        margin: 0 0 10px 10px; }
+        footer .flex .flex-item-social .social1 a, footer .flex .flex-item-social .social2 a, footer .flex .flex-item-social .social3 a, footer .flex .flex-item-social .social4 a {
+          color: #FFFFFF;
+          font-size: 1.7em;
+          display: block;
+          width: 35px;
+          height: 35px; }
+          footer .flex .flex-item-social .social1 a:hover, footer .flex .flex-item-social .social2 a:hover, footer .flex .flex-item-social .social3 a:hover, footer .flex .flex-item-social .social4 a:hover {
+            color: #2A1000; }
+
+.forsvind-menu {
+  display: block; }
+
+@media all and (max-width: 1000px) {
+  .container {
+    width: 80%; }
+
+  .flex {
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+
+  .flex-item.speciale {
+    width: 100%; }
+    .flex-item.speciale .textbox {
+      max-width: calc(100% - 150px - 20px);
+      text-align: left;
+      padding-left: 10px; }
+      .flex-item.speciale .textbox h3 {
+        margin-top: 10px; }
+    .flex-item.speciale img {
+      margin: inherit;
+      max-width: 150px;
+      max-height: 150px; }
+
+  .speciale {
+    justify-content: flex-start; }
+
+  .speciale-container .flex-item {
+    justify-content: flex-start;
+    margin: 10px 0; }
+
+  .hide-on-medium-and-down {
+    display: none; } }
+@media all and (max-width: 800px) {
+  .small-full-width {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  .small-border-top {
+    border-top: 2px solid rgba(181, 178, 176, 0.2);
+    margin-top: 20px;
+    padding-top: 20px; }
+
+  .hide-on-small {
+    display: none; }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #DF9B67;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    text-align: right; }
+
+  nav {
+    height: auto;
+    display: none;
+    top: 50px; }
+    nav .container {
+      width: 100%; }
+    nav a {
+      display: block;
+      padding: 0;
+      line-height: 6vh;
+      padding-left: 20px;
+      text-align: center; }
+      nav a:hover, nav a .active {
+        background-color: #749CD3; }
+      nav a:first-child {
+        margin-left: 0; }
+      nav a:last-child {
+        margin-right: 0; }
+    nav .shop {
+      float: none; }
+
+  .til-top {
+    position: fixed;
+    bottom: 20px;
+    right: 29px;
+    z-index: 10; }
+    .til-top img {
+      max-width: 70px; } }
+
+/*# sourceMappingURL=style.css.map */
+=======
 @font-face {
   @import url("https://fonts.googleapis.com/css?family=Lato");
   font-family: 'Lato'; }
@@ -350,3 +684,4 @@ footer {
     z-index: 10; } }
 
 /*# sourceMappingURL=style.css.map */
+>>>>>>> 5254d13d074943c1a87ba15b2f5e361e0ad8dc57
