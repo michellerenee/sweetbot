@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="603d4d24-9156-4550-8844-08fa3b31fe5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/digitalsecurity_jpeg.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arbejdsfiler/digitalsecurity_jpeg.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/src/skdslider.css" afterPath="$PROJECT_DIR$/scripts/src/skdslider.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css.map" afterPath="$PROJECT_DIR$/style/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.scss" afterPath="$PROJECT_DIR$/style/style.scss" />
@@ -25,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="120">
               <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="138" column="18" lean-forward="false" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+            <state relative-caret-position="367">
+              <caret line="437" column="4" lean-forward="false" selection-start-line="437" selection-start-column="4" selection-end-line="437" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -48,8 +47,8 @@
       <file leaf-file-name="skdslider.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/src/skdslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3174">
-              <caret line="138" column="18" lean-forward="false" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+            <state relative-caret-position="318">
+              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,12 +74,13 @@
       <find>width</find>
       <find>.flex</find>
       <find>footer</find>
-      <find>nav</find>
       <find>butto</find>
       <find>logo</find>
       <find>flex-item</find>
       <find>social</find>
       <find>section</find>
+      <find>nav</find>
+      <find>z-index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,22 +91,29 @@
       <list>
         <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/scripts/src/skdslider.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/src/skdslider.css" />
         <option value="$PROJECT_DIR$/style/style.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1260" />
-    <option name="width" value="667" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1114" />
+    <option name="width" value="813" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -125,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,12 +171,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -202,18 +212,19 @@
       <updated>1510917415423</updated>
       <workItem from="1510917416766" duration="28197000" />
       <workItem from="1511255948171" duration="5776000" />
-      <workItem from="1511341155587" duration="12239000" />
+      <workItem from="1511341155587" duration="12855000" />
+      <workItem from="1511356170167" duration="760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46212000" />
+    <option name="totallyTimeSpent" value="47588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1114" y="0" width="813" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119791664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28858218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -243,6 +254,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3174">
+          <caret line="138" column="18" lean-forward="false" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/src/skdslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3174">
+          <caret line="138" column="18" lean-forward="false" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3220">
@@ -287,32 +322,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="43" column="104" lean-forward="false" selection-start-line="43" selection-start-column="104" selection-end-line="43" selection-end-column="104" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/src/skdslider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3174">
-          <caret line="138" column="18" lean-forward="false" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+        <state relative-caret-position="318">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="138" column="18" lean-forward="false" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="234" column="0" lean-forward="false" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+        <state relative-caret-position="367">
+          <caret line="437" column="4" lean-forward="false" selection-start-line="437" selection-start-column="4" selection-end-line="437" selection-end-column="4" />
           <folding />
         </state>
       </provider>

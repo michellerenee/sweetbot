@@ -74,6 +74,7 @@ a{
 
 .menu-toggle{
   display: none;
+  z-index: 190;
 }
 
 nav{
@@ -434,6 +435,8 @@ footer{
     height: auto;
     display: none;
     top: 50px;
+    
+
 
     .container{
       width: 100%;
