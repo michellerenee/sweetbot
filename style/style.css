@@ -49,6 +49,9 @@ a {
   width: 70%;
   margin: auto; }
 
+.menu-toggle {
+  display: none; }
+
 nav {
   background-color: #DF9B67;
   height: 6vh;
@@ -74,32 +77,40 @@ nav {
 .til-top {
   position: fixed;
   bottom: 20px;
-  right: 29px; }
+  right: 29px;
+  z-index: 10; }
   .til-top img {
     max-width: 70px; }
 
 .logo {
-  height: 80px;
+  max-height: 80px;
   margin: 70px;
-  margin-left: -20px; }
+  margin-left: -30px;
+  max-width: 100%; }
 
 section {
   background-color: #FFFFFF;
   padding: 20px;
   margin-bottom: 20px; }
 
-#web, #security, #branding, #omos, #kontakt, #hjem {
+.anchor {
+  display: block;
+  height: 8vh;
+  margin-top: -8vh;
+  visibility: hidden; }
+
+.web, .security, .branding, .omos, .kontakt, .hjem {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap; }
-  #web h2, #security h2, #branding h2, #omos h2, #kontakt h2, #hjem h2 {
+  .web h2, .security h2, .branding h2, .omos h2, .kontakt h2, .hjem h2 {
     width: 100%; }
-  #web h3, #security h3, #branding h3, #omos h3, #kontakt h3, #hjem h3 {
+  .web h3, .security h3, .branding h3, .omos h3, .kontakt h3, .hjem h3 {
     padding-bottom: 0; }
-  #web form p, #security form p, #branding form p, #omos form p, #kontakt form p, #hjem form p {
+  .web form p, .security form p, .branding form p, .omos form p, .kontakt form p, .hjem form p {
     display: block;
     font-size: 1.2em; }
-  #web form input, #web form textarea, #security form input, #security form textarea, #branding form input, #branding form textarea, #omos form input, #omos form textarea, #kontakt form input, #kontakt form textarea, #hjem form input, #hjem form textarea {
+  .web form input, .web form textarea, .security form input, .security form textarea, .branding form input, .branding form textarea, .omos form input, .omos form textarea, .kontakt form input, .kontakt form textarea, .hjem form input, .hjem form textarea {
     height: 40px;
     width: 100%;
     padding: 5px;
@@ -107,12 +118,12 @@ section {
     float: left;
     border: 3px solid #749CD3;
     margin-bottom: 10px; }
-  #web form textarea, #security form textarea, #branding form textarea, #omos form textarea, #kontakt form textarea, #hjem form textarea {
+  .web form textarea, .security form textarea, .branding form textarea, .omos form textarea, .kontakt form textarea, .hjem form textarea {
     height: 80px;
     resize: vertical; }
-  #web form label, #security form label, #branding form label, #omos form label, #kontakt form label, #hjem form label {
+  .web form label, .security form label, .branding form label, .omos form label, .kontakt form label, .hjem form label {
     float: left; }
-  #web form input[type=submit], #security form input[type=submit], #branding form input[type=submit], #omos form input[type=submit], #kontakt form input[type=submit], #hjem form input[type=submit] {
+  .web form input[type=submit], .security form input[type=submit], .branding form input[type=submit], .omos form input[type=submit], .kontakt form input[type=submit], .hjem form input[type=submit] {
     background-color: #749CD3;
     color: #FFFFFF;
     cursor: pointer;
@@ -202,23 +213,33 @@ footer {
   background-color: #2A1000;
   color: #FFFFFF;
   padding: 10px 0;
-  margin-top: 40px; }
+  margin-top: 40px;
+  z-index: 80;
+  position: relative; }
   footer .flex {
     justify-content: space-between; }
     footer .flex .flex-item-social {
-      flex-wrap: wrap; }
+      flex-wrap: nowrap;
+      display: block;
+      width: 90px; }
       footer .flex .flex-item-social .social1, footer .flex .flex-item-social .social2, footer .flex .flex-item-social .social3, footer .flex .flex-item-social .social4 {
         width: 35px;
         height: 35px;
-        display: block;
+        float: left;
         line-height: 35px;
         text-align: center;
-        margin: 0 0 0 10px; }
+        margin: 0 0 10px 10px; }
         footer .flex .flex-item-social .social1 a, footer .flex .flex-item-social .social2 a, footer .flex .flex-item-social .social3 a, footer .flex .flex-item-social .social4 a {
           color: #FFFFFF;
-          font-size: 1.7em; }
+          font-size: 1.7em;
+          display: block;
+          width: 35px;
+          height: 35px; }
           footer .flex .flex-item-social .social1 a:hover, footer .flex .flex-item-social .social2 a:hover, footer .flex .flex-item-social .social3 a:hover, footer .flex .flex-item-social .social4 a:hover {
             color: #2A1000; }
+
+.forsvind-menu {
+  display: block; }
 
 @media all and (max-width: 1000px) {
   .container {
@@ -246,6 +267,66 @@ footer {
 
   .speciale-container .flex-item {
     justify-content: flex-start;
-    margin: 10px 0; } }
+    margin: 10px 0; }
+
+  .hide-on-medium-and-down {
+    display: none; } }
+@media all and (max-width: 800px) {
+  .small-full-width {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+
+  .small-border-top {
+    border-top: 2px solid rgba(181, 178, 176, 0.2);
+    margin-top: 20px;
+    padding-top: 20px; }
+
+  .hide-on-small {
+    display: none; }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #DF9B67;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    text-align: right; }
+
+  nav {
+    height: auto;
+    display: none;
+    top: 50px; }
+    nav .container {
+      width: 100%; }
+    nav a {
+      display: block;
+      padding: 0;
+      line-height: 6vh;
+      padding-left: 20px;
+      text-align: center; }
+      nav a:hover, nav a .active {
+        background-color: #749CD3; }
+      nav a:first-child {
+        margin-left: 0; }
+      nav a:last-child {
+        margin-right: 0; }
+    nav .shop {
+      float: none; }
+
+  .til-top {
+    position: fixed;
+    bottom: 20px;
+    right: 29px;
+    z-index: 10; }
+    .til-top img {
+      max-width: 70px; } }
 
 /*# sourceMappingURL=style.css.map */
