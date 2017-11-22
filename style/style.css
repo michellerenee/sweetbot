@@ -81,7 +81,8 @@ nav {
   right: 29px;
   z-index: 10; }
   .til-top img {
-    max-width: 70px; }
+    max-width: 50px;
+    opacity: 0.8; }
 
 .logo {
   max-height: 80px;
@@ -158,7 +159,7 @@ section {
     justify-content: flex-end; }
     .flex .flex-item address {
       font-style: normal;
-      font-size: 1.2em; }
+      font-size: 1em; }
   .flex .flex-item-social {
     max-width: 100px; }
   .flex .speciale {
@@ -242,7 +243,7 @@ footer {
 .forsvind-menu {
   display: block; }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
   .container {
     width: 80%; }
 
@@ -253,15 +254,14 @@ footer {
   .flex-item.speciale {
     width: 100%; }
     .flex-item.speciale .textbox {
-      max-width: calc(100% - 150px - 20px);
-      text-align: left;
+      max-width: 100%;
       padding-left: 10px; }
       .flex-item.speciale .textbox h3 {
         margin-top: 10px; }
     .flex-item.speciale img {
-      margin: inherit;
-      max-width: 150px;
-      max-height: 150px; }
+      margin: auto;
+      max-width: 120px;
+      max-height: 120px; }
 
   .speciale {
     justify-content: flex-start; }
@@ -273,6 +273,27 @@ footer {
   .hide-on-medium-and-down {
     display: none; } }
 @media all and (max-width: 800px) {
+  .container {
+    width: 100%; }
+
+  .logo {
+    margin: 50px 60px 60px -20px; }
+
+  h1 {
+    font-size: 1.8em; }
+
+  h2 {
+    font-size: 1.6em; }
+
+  h3 {
+    font-size: 1.4em; }
+
+  p {
+    font-size: 1.2em; }
+
+  footer {
+    padding: 20px; }
+
   .small-full-width {
     width: 100%;
     margin: 0;
@@ -326,8 +347,6 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 29px;
-    z-index: 10; }
-    .til-top img {
-      max-width: 70px; } }
+    z-index: 10; } }
 
 /*# sourceMappingURL=style.css.map */

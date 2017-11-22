@@ -117,7 +117,8 @@ nav{
   z-index: 10;
 
   img{
-    max-width: 70px;
+    max-width: 50px;
+    opacity: 0.8;
   }
 }
 
@@ -223,7 +224,7 @@ section{
 
     address{
       font-style: normal;
-      font-size: 1.2em;
+      font-size: 1em;
     }
   }
 
@@ -352,7 +353,7 @@ footer{
   display: block;
 }
 
-@media all and (max-width: 1000px){
+@media all and (max-width: 1024px){
   .container{
     width: 80%;
   }
@@ -366,8 +367,7 @@ footer{
     width: 100%;
 
     .textbox{
-      max-width: calc(100% - 150px - 20px);
-      text-align: left;
+      max-width: 100%;
       padding-left: 10px;
 
       h3{
@@ -376,9 +376,9 @@ footer{
     }
 
     img{
-      margin: inherit;
-      max-width: 150px;
-      max-height: 150px;
+      margin: auto;
+      max-width: 120px;
+      max-height: 120px;
     }
   }
 
@@ -399,6 +399,34 @@ footer{
 }
 
 @media all and (max-width: 800px){
+  .container{
+    width: 100%;
+  }
+
+  .logo{
+    margin: 50px 60px 60px -20px;
+  }
+
+  h1{
+    font-size: 1.8em;
+  }
+
+  h2{
+    font-size: 1.6em;
+  }
+
+  h3{
+    font-size: 1.4em;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  footer{
+    padding: 20px;
+  }
+
   .small-full-width{
     width: 100%;
     margin: 0;
@@ -471,8 +499,6 @@ footer{
     right: 29px;
     z-index: 10;
 
-    img{
-      max-width: 70px;
-    }
+
   }
 }

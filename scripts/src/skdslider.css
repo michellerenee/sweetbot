@@ -135,7 +135,7 @@ text-decoration:underline;
 /*Some Responsive CSS */
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1024px){
 	.skdslider{
 		max-height: 290px;
 	}
@@ -158,6 +158,12 @@ text-decoration:underline;
 	}
 	.skdslider .slide-desc > p a.more {
 		font-size:14px;
+	}
+}
+
+@media all and (max-width: 800px){
+	.skdslider{
+		max-height: 150px;
 	}
 }
 
