@@ -34,8 +34,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="127" column="22" lean-forward="false" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+            <state relative-caret-position="414">
+              <caret line="175" column="23" lean-forward="false" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,7 +46,28 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="5" />
-              <folding />
+              <folding>
+                <marker date="1511529745225" expanded="true" signature="1441:1473" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7152:7161" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7152:8377" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7168:7193" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7200:7225" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7232:7257" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7263:7288" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7299:7321" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7343:7394" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7416:7516" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7535:7557" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7574:7838" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7846:7901" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7921:7943" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="7954:8073" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="8107:8145" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="8170:8197" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="8221:8249" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="8264:8286" ph="{...}" />
+                <marker date="1511529745225" expanded="true" signature="8299:8375" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,12 +239,12 @@
       <workItem from="1511356170167" duration="760000" />
       <workItem from="1511358683307" duration="2155000" />
       <workItem from="1511517623725" duration="1914000" />
-      <workItem from="1511525710885" duration="2264000" />
+      <workItem from="1511525710885" duration="2408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55069000" />
+    <option name="totallyTimeSpent" value="55213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -541,14 +562,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="5" />
-          <folding />
+          <folding>
+            <marker date="1511529745225" expanded="true" signature="1441:1473" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7152:7161" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7152:8377" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7168:7193" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7200:7225" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7232:7257" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7263:7288" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7299:7321" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7343:7394" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7416:7516" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7535:7557" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7574:7838" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7846:7901" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7921:7943" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="7954:8073" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="8107:8145" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="8170:8197" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="8221:8249" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="8264:8286" ph="{...}" />
+            <marker date="1511529745225" expanded="true" signature="8299:8375" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="127" column="22" lean-forward="false" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+        <state relative-caret-position="414">
+          <caret line="175" column="23" lean-forward="false" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
           <folding />
         </state>
       </provider>

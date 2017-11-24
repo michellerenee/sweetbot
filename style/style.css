@@ -114,13 +114,17 @@ section {
     display: block;
     font-size: 1.2em; }
   .web form input, .web form textarea, .security form input, .security form textarea, .branding form input, .branding form textarea, .omos form input, .omos form textarea, .kontakt form input, .kontakt form textarea, .hjem form input, .hjem form textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    apperance: none;
     height: 40px;
     width: 100%;
     padding: 5px;
     margin: 0;
     float: left;
     border: 3px solid #749CD3;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    border-radius: 0; }
   .web form textarea, .security form textarea, .branding form textarea, .omos form textarea, .kontakt form textarea, .hjem form textarea {
     height: 80px;
     resize: vertical; }
@@ -204,9 +208,6 @@ section {
     border-radius: 0;
     margin-top: 10px; }
   .flex form input[type=submit] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    apperance: none;
     border-radius: 0;
     background-color: #749CD3;
     color: #FFFFFF;
