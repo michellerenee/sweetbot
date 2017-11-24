@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="603d4d24-9156-4550-8844-08fa3b31fe5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.scss" afterPath="$PROJECT_DIR$/style/style.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="176" column="61" lean-forward="true" selection-start-line="176" selection-start-column="61" selection-end-line="176" selection-end-column="61" />
+            <state relative-caret-position="718">
+              <caret line="252" column="7" lean-forward="false" selection-start-line="252" selection-start-column="7" selection-end-line="252" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -33,8 +34,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="293" column="15" lean-forward="false" selection-start-line="293" selection-start-column="15" selection-end-line="293" selection-end-column="15" />
+            <state relative-caret-position="643">
+              <caret line="430" column="3" lean-forward="true" selection-start-line="430" selection-start-column="3" selection-end-line="430" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -71,7 +72,6 @@
       <find>.flex</find>
       <find>footer</find>
       <find>butto</find>
-      <find>logo</find>
       <find>flex-item</find>
       <find>social</find>
       <find>section</find>
@@ -82,6 +82,7 @@
       <find>speciale-container</find>
       <find>speciale</find>
       <find>input</find>
+      <find>logo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -173,6 +173,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,11 +218,12 @@
       <workItem from="1511356170167" duration="760000" />
       <workItem from="1511358683307" duration="2155000" />
       <workItem from="1511517623725" duration="1914000" />
+      <workItem from="1511525710885" duration="1250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52805000" />
+    <option name="totallyTimeSpent" value="54055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -257,6 +259,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6739">
+          <caret line="293" column="15" lean-forward="false" selection-start-line="293" selection-start-column="15" selection-end-line="293" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/src/skdslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3151">
+          <caret line="137" column="34" lean-forward="false" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7406">
@@ -505,16 +531,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="293" column="15" lean-forward="false" selection-start-line="293" selection-start-column="15" selection-end-line="293" selection-end-column="15" />
+        <state relative-caret-position="643">
+          <caret line="430" column="3" lean-forward="true" selection-start-line="430" selection-start-column="3" selection-end-line="430" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="176" column="61" lean-forward="true" selection-start-line="176" selection-start-column="61" selection-end-line="176" selection-end-column="61" />
+        <state relative-caret-position="718">
+          <caret line="252" column="7" lean-forward="false" selection-start-line="252" selection-start-column="7" selection-end-line="252" selection-end-column="7" />
           <folding />
         </state>
       </provider>
